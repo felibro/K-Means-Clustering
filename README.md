@@ -1,2 +1,2 @@
 # K-Means-Clustering
-HW 7
+CMPT364 HW 7
