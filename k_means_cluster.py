@@ -59,9 +59,7 @@ def plot(data, centers):
     plt.show()
     
 def main(data, points):
-    ref = {}
-    for c,pts in enumerate(points.keys()):
-        ref[pts] = c
+    ref = {pts:c for c,pts in enumerate(points.keys())}
     for d in data:
         for cen, pts in points.items():
             if d in pts:
